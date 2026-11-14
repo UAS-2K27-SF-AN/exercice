@@ -1,0 +1,2 @@
+parameters:
+    app.articles_file: '%kernel.project_dir%/var/data/test_articles.json'

@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+{% block title %}{{ page_title }}{% endblock %}
+{% block body %}
+    <h1>{{ page_title }}</h1>
+
+    {{ form_start(form) }}
+        <div class="form-row">
+            {{ form_label(form.title) }}
+            {{ form_widget(form.title) }}
+        </div>
+
+        <div class="form-row">
+            {{ form_label(form.content) }}
+            {{ form_widget(form.content) }}
+        </div>
+
+        <div class="form-row">
+            {{ form_label(form.author) }}
+            {{ form_widget(form.author) }}
+        </div>
+
+        <div class="form-actions">
+            <input type="submit" value="{{ button_label }}">
+            <a href="{{ path('article_index') }}">Annuler</a>
+        </div>
+    {{ form_end(form) }}
+{% endblock %}

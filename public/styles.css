@@ -1,0 +1,139 @@
+body {
+    background-color: skyblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #000;
+    margin: 20px 25px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+a {
+    color: blue;
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-size: 15px;
+}
+table th {
+    text-align: left;
+    font-weight: bold;
+    padding: 3px 25px 5px 0;
+}
+table td {
+    padding: 3px 25px 3px 0;
+    vertical-align: middle;
+}
+.actions a {
+    margin-right: 6px;
+}
+.form-row {
+    margin-bottom: 8px;
+}
+.form-row label {
+    font-family: serif;
+    font-size: 15px;
+    margin-right: 6px;
+}
+.form-row input[type="text"] {
+    font-family: serif;
+    font-size: 14px;
+    padding: 2px 4px;
+    border: 1px solid #777;
+    width: 220px;
+}
+.form-row textarea {
+    font-family: monospace;
+    font-size: 13px;
+    padding: 4px;
+    border: 1px solid #777;
+    width: 220px;
+    height: 95px;
+    vertical-align: bottom;
+}
+.form-actions {
+    margin-top: 8px;
+}
+.form-actions input[type="submit"] {
+    font-family: serif;
+    font-size: 13px;
+    padding: 2px 8px;
+    border: 1px solid #777;
+    background-color: #efefef;
+    cursor: pointer;
+    margin-right: 6px;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+a {
+    color: blue;
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+}
+table {
+    border-collapse: collapse;
+    margin-top: 6px;
+    font-size: 15px;
+}
+table th {
+    text-align: left;
+    font-weight: bold;
+    padding: 3px 25px 5px 0;
+}
+table td {
+    padding: 3px 25px 3px 0;
+    vertical-align: middle;
+}
+.actions a {
+    margin-right: 6px;
+}
+.form-row {
+    margin-bottom: 8px;
+}
+.form-row label {
+    font-family: serif;
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+.form-row input[type="text"] {
+    font-family: serif;
+    font-size: 14px;
+    padding: 2px 4px;
+    border: 1px solid #777;
+    width: 220px;
+}
+.form-row textarea {
+    font-family: monospace;
+    font-size: 13px;
+    padding: 4px;
+    border: 1px solid #777;
+    width: 220px;
+    height: 95px;
+    vertical-align: bottom;
+}
+.form-actions {
+    margin-top: 8px;
+}
+.form-actions input[type="submit"] {
+    font-family: serif;
+    font-size: 13px;
+    padding: 2px 8px;
+    border: 1px solid #777;
+    background-color: #efefef;
+    cursor: pointer;
+    margin-right: 6px;
+}
